@@ -19,13 +19,13 @@
 
 ## 🚀 项目
 
-### [TalosDesk](https://github.com/kongerly/TalosDesk) <sub>C# · .NET 10 · Windows</sub>
-
-面向 Windows 的本地项目运行工作台：保存常用命令，一键运行，集中查看状态与输出。包含命令分组与批量启动、服务命令的本机 TCP 就绪探测、本机加密保存的敏感环境变量、按批次保留的日志策略，以及默认关闭的更新检查和只存本机的崩溃诊断。已发布内置 .NET 运行时的便携包，最新稳定版 **v0.2.0**；源码正在推进 v0.3.0。
-
 ### [ArgusGate](https://github.com/kongerly/ArgusGate) <sub>Go · v0.1 · Phase 1 进行中</sub>
 
 兼容 OpenAI 接口的 AI 推理网关，位于 AI 应用与 llama.cpp、vLLM 等独立推理服务之间。基础服务已完成：严格 JSON 配置加载与校验、`GET /healthz`、Request ID、结构化请求日志、信号驱动的优雅关闭和 CI。Phase 1 的单后端非流式代理组件（请求体限长读取、请求探针校验、上游请求转发与 header 过滤）已实现并通过单元测试，尚在接入 `/v1/chat/completions`。
+
+### [TalosDesk](https://github.com/kongerly/TalosDesk) <sub>C# · .NET 10 · Windows</sub>
+
+面向 Windows 的本地项目运行工作台：保存常用命令，一键运行，集中查看状态与输出。包含命令分组与批量启动、服务命令的本机 TCP 就绪探测、本机加密保存的敏感环境变量、按批次保留的日志策略，以及默认关闭的更新检查和只存本机的崩溃诊断。已发布内置 .NET 运行时的便携包，最新稳定版 **v0.2.0**；源码正在推进 v0.3.0。
 
 ### [AetherLab](https://github.com/kongerly/AetherLab) <sub>Python · FastAPI · Pre-Alpha</sub>
 
